@@ -1,0 +1,138 @@
+name: indoscape
+description: An application to explore Indonesia
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  google_nav_bar: ^5.0.6
+  font_awesome_flutter: ^10.5.0
+  geocoding: ^2.1.0
+  geolocator: ^9.0.2
+  intl: ^0.18.1
+  skeletons: ^0.0.3
+  http: ^1.1.0
+  carousel_slider: ^4.2.1
+  flutter_map: ^5.0.0
+  latlong2: ^0.9.0
+  flutter_dotenv: ^5.1.0
+  introduction_screen: ^3.1.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - lib/assets/json/travel.json
+    - lib/assets/json/culture.json
+    - lib/assets/json/food.json
+    - lib/assets/json/mountain.json
+    - lib/assets/images/intro1.jpg
+    - lib/assets/images/intro2.jpg
+    - lib/assets/images/intro3.jpg
+    - lib/assets/images/indonesiaMap.jpg
+    - lib/assets/images/bgBromo.jpg
+    - lib/assets/images/bromo.jpg
+    - lib/assets/images/city.png
+    - lib/assets/images/culture.png
+    - lib/assets/images/food.png
+    - lib/assets/images/info.png
+    - lib/assets/images/mountain.png
+    - lib/assets/images/museum.png
+    - lib/assets/images/province.png
+    - lib/assets/images/film.png
+    - lib/assets/images/travel.png
+    - lib/assets/images/bakso.jpg
+    - lib/assets/images/sambalGorengTempe.jpg
+    - lib/assets/images/rujakCingur.jpg
+    - lib/assets/images/pindangIkan.jpg
+    - lib/assets/images/lumpia.jpg
+    - lib/assets/images/pecelLele.jpg
+    - lib/assets/images/kerakTelor.jpg
+    - lib/assets/images/nasiKunyit.jpg
+    - lib/assets/images/pisangGoreng.jpg
+    - lib/assets/images/sotoBetawi.jpg
+    - lib/assets/images/ketoprak.jpg
+    - lib/assets/images/nasiPadang.jpg
+    - lib/assets/images/pempek.jpg
+    - lib/assets/images/martabak.jpg
+    - lib/assets/images/nasiUduk.jpg
+    - lib/assets/images/sotoAyam.jpg
+    - lib/assets/images/rujak.jpg
+    - lib/assets/images/sateAyam.jpg
+    - lib/assets/images/gadoGado.jpg
+    - lib/assets/images/rendang.jpg
+    - lib/assets/images/nasiGoreng.jpg
+    - lib/assets/images/puncakJaya.jpg
+    - lib/assets/images/kerinci.jpg
+    - lib/assets/images/rinjani.jpg
+    - lib/assets/images/semeru.jpg
+    - lib/assets/images/raung.jpg
+    - lib/assets/images/merbabu.jpg
+    - lib/assets/images/lawu.jpg
+    - lib/assets/images/sumbing.jpg
+    - lib/assets/images/slamet.jpg
+    - lib/assets/images/sindoro.jpg
+    - lib/assets/images/merapi.jpg
+    - lib/assets/images/klabat.jpg
+    - lib/assets/images/binaiya.jpg
+    - lib/assets/images/kelimutu.jpg
+    - lib/assets/images/bukitRaya.jpg
+    - lib/assets/images/krakatoa.jpg
+    - lib/assets/images/cikuray.jpg
+    - lib/assets/images/ciremai.jpg
+    - lib/assets/images/patuha.jpg
+    - lib/assets/images/agung.jpg
+    - lib/assets/images/tambora.jpg
+    - lib/assets/images/batik.jpg
+    - lib/assets/images/wayang.jpg
+    - lib/assets/images/gamelan.jpg
+    - lib/assets/images/keris.jpg
+    - lib/assets/images/pencakSilat.jpg
+    - lib/assets/images/angklung.jpg
+    - lib/assets/images/rendang.jpg
+    - lib/assets/images/borobudur.jpg
+    - lib/assets/images/kecak.jpg
+    - lib/assets/images/prambanan.jpg
+    - lib/assets/images/tumpeng.jpg
+    - lib/assets/images/bajidorKahot.jpg
+    - lib/assets/images/reogPonorogo.jpg
+    - lib/assets/images/topeng.jpg
+    - lib/assets/images/wayangKulit.jpg
+    - lib/assets/images/pisBolong.jpg
+    - lib/assets/images/sasando.jpg
+    - lib/assets/images/rejang.jpg
+    - lib/assets/images/joglo.jpg
+    - lib/assets/images/lontongCapGomeh.jpg
+    - lib/assets/images/bali.jpg
+    - lib/assets/images/yogyakarta.jpg
+    - lib/assets/images/komodoNationalPark.jpg
+    - lib/assets/images/rajaAmpat.jpg
+    - lib/assets/images/lombok.jpg
+    - lib/assets/images/jakarta.jpg
+    - lib/assets/images/ubud.jpg
+    - lib/assets/images/borobudur.jpg
+    - lib/assets/images/bromo.jpg
+    - lib/assets/images/giliIsland.jpg
+    - lib/assets/images/tanaToraja.jpg
+    - lib/assets/images/rinjani.jpg
+    - lib/assets/images/bunaken.jpg
+    - lib/assets/images/bandung.jpg
+    - lib/assets/images/derawanIsland.jpg
+    - lib/assets/images/mountIjen.jpg
+    - lib/assets/images/manado.jpg
+    - lib/assets/images/nusaPenida.jpg
+    - lib/assets/images/bandaIsland.jpg
+    - lib/assets/images/sumba.jpg
