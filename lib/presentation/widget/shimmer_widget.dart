@@ -9,6 +9,7 @@ class ShimmerAppBarWidget extends StatelessWidget {
   });
 
   final BuildContext context;
+  
 
   @override
   Widget build(BuildContext context) {
